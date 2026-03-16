@@ -1,0 +1,6 @@
+a=eval(input("enter the value:"))
+if(type(a) is int and a%2==1):
+    b=a%5==0
+    print(f"the value is divisable{b}")
+else:
+    print("it is not a int")    
